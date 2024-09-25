@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ilamnati-app/static/css/main.493471b1.css",
+    "main.js": "/ilamnati-app/static/js/main.6546c97e.js",
+    "static/js/453.419a5d54.chunk.js": "/ilamnati-app/static/js/453.419a5d54.chunk.js",
+    "index.html": "/ilamnati-app/index.html",
+    "main.493471b1.css.map": "/ilamnati-app/static/css/main.493471b1.css.map",
+    "main.6546c97e.js.map": "/ilamnati-app/static/js/main.6546c97e.js.map",
+    "453.419a5d54.chunk.js.map": "/ilamnati-app/static/js/453.419a5d54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.493471b1.css",
+    "static/js/main.6546c97e.js"
+  ]
+}
