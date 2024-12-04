@@ -1,0 +1,61 @@
+// styles.scss
+
+$bg-color: #121212;
+$text-color: #e0e0e0;
+$primary-color: #1db954;
+$button-bg: #1db954;
+$button-hover-bg: #1aa34a;
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: $bg-color;
+  color: $text-color;
+  margin: 0;
+}
+
+.header {
+  background-color: #1c1c1c;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+h1, h2 {
+  margin: 0 0 10px 0;
+}
+
+.challenge-section, .leaderboard-section {
+  background-color: #1c1c1c;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+button {
+  background-color: $button-bg;
+  color: $text-color;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: $button-hover-bg;
+}
+
+#leaderboard-list {
+  list-style: none;
+  padding: 0;
+}
+
+#leaderboard-list li {
+  padding: 10px;
+  border-bottom: 1px solid #444;
+}

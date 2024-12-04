@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(to right, #fc466b, #3f5efb);
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .header {
+    background: #3f5efb;
+    padding: 2rem 0;
+  }
+  
+  .header h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .header p {
+    font-size: 1.2rem;
+  }
+  
+  .challenge-section {
+    padding: 2rem 0;
+  }
+  
+  .challenge-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  #submit-btn {
+    background-color: #fc466b;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #submit-btn:hover {
+    background-color: #ff6b81;
+  }
+  
+  .leaderboard-section {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 2rem 0;
+    margin-top: 2rem;
+  }
+  
+  .leaderboard-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  #leaderboard-list {
+    list-style: none;
+    font-size: 1.2rem;
+  }
+  
+  footer {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem 0;
+    margin-top: 3rem;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
